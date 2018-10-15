@@ -32,8 +32,8 @@ CREATE TABLE `tb_mahasiswa` (
   `nim` varchar(10) NOT NULL,
   `nama` text NOT NULL,
   `jenis_kelamin` varchar(10) NOT NULL,
-  `fakultas` varchar(20) NOT NULL,
-  `prodi` varchar(20) NOT NULL,
+  `fakultas` varchar(3) NOT NULL,
+  `prodi` varchar(50) NOT NULL,
   `asal` text NOT NULL,
   `motto` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
