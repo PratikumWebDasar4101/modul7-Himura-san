@@ -1,6 +1,5 @@
 <?php
     require("config.php");
-    session_start();
 
     if (isset($_GET['tambah_data'])) {
         if (isset($_POST['nim'])) {
