@@ -28,7 +28,7 @@
                     <tr>
                         <td><?php echo $data['nim'];?></td>
                         <td><?php echo $data['nama'];?></td>
-                        <td><a href="edit_data.php?nim=<?php echo $data['nim'];?>">Edit</a><a href="proses.php?delete_data=<?php echo $data['nim'];?>" onclick="return confirm('Apakah anda yakin ingin menghapus data..?');">Hapus</a></td>
+                        <td><a href="proses.php?delete_data=<?php echo $data['nim'];?>" onclick="return confirm('Apakah anda yakin ingin menghapus data..?');">Hapus</a></td>
                     </tr>
                     <?php
                 }
